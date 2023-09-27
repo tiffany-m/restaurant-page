@@ -3,7 +3,7 @@ homeTab.classList.add("tab");
 
 homeTab.setHTML(
     `
-  <h2>Welcome to Calabrese!  Where Every Noodle Tells a Story.</h2>
+  <h3>Welcome to Calabrese!  Where Every Noodle Tells a Story.</h3>
   <div>
       At Calabrese Italian tradition and culinary excellence come to life right
       in the heart of Philadelphia. Founded by the Calabrese family, our restaurant is proud to be in its third
