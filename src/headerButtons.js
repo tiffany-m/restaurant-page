@@ -14,7 +14,6 @@ menuButton.classList.add('nav-link');
 menuButton.textContent = "Menu";
 
 const navContainer = document.createElement("div");
-navContainer.classList.add("navbar");
 
 navContainer.appendChild(homeButton)
 navContainer.appendChild(contactButton)
