@@ -1,5 +1,5 @@
 const homeTab = document.createElement("div");
-homeTab.classList.add("tag");
+homeTab.classList.add("tab");
 
 homeTab.setHTML(
     `

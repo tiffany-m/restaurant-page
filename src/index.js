@@ -21,22 +21,22 @@ header.appendChild(navContainer);
 content.appendChild(header);
 
 //Main
-const mainContent = document.createElement("div");
-mainContent.setAttribute("id", "main-content")
+const tabContent = document.createElement("div");
+tabContent.setAttribute("id", "main-content")
 
-content.appendChild(mainContent);
-mainContent.appendChild(homeTab);
+content.appendChild(tabContent);
+tabContent.appendChild(homeTab);
 
 function loadHomePage() {
-    mainContent.replaceChild(homeTab, currentTab);
+    tabContent.replaceChild(homeTab, currentTab);
 }
 
 function loadContactPage() {
-    mainContent.replaceChild(contactTab, currentTab);
+    tabContent.replaceChild(contactTab, currentTab);
 }
 
 function loadMenuPage() {
-    mainContent.replaceChild(menuTab, currentTab);
+    tabContent.replaceChild(menuTab, currentTab);
 }
 
 let navLinks = document.querySelectorAll(".nav-link");
