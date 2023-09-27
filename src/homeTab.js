@@ -31,7 +31,7 @@ homeTab.setHTML(
   </div>
   <div>
       <div class="p-tag">Join Us</div>
-      We invite you to experience the rich flavors and warm hospitality that have made [Your Restaurant's Name] a beloved
+      We invite you to experience the rich flavors and warm hospitality that have made Calabrese a beloved
       destination for food lovers. Benvenuto!
   </div>
   `)
