@@ -19,7 +19,21 @@ html {
 
 .header-title {
     font-family: 'Italianno', cursive;
-    font-size: 6rem;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.navbar {
+    margin: auto;  
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 1rem 3rem;
+    margin: 1rem .5rem;
+    border-radius: 5px;
 }
 
 .home {
@@ -35,6 +49,8 @@ html {
 
 .tag {
     background-color: rgba(255, 255, 255, 0.75);
+    margin: auto;
+    margin-top: 3rem;
 }
 
 img {

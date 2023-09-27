@@ -11,7 +11,13 @@ contactButton.textContent = "Contact";
 const menuButton = document.createElement("button");
 menuButton.setAttribute("id", "menu-link");
 menuButton.classList.add('nav-link');
-menuButton.textContent = "menu";
+menuButton.textContent = "Menu";
 
+const navContainer = document.createElement("div");
+navContainer.classList.add("navbar");
 
-export {homeButton, contactButton, menuButton};
+navContainer.appendChild(homeButton)
+navContainer.appendChild(contactButton)
+navContainer.appendChild(menuButton)
+
+export default navContainer;

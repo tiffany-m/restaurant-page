@@ -1,5 +1,5 @@
 import './style.css';
-import {homeButton, contactButton, menuButton} from "./headerButtons";
+import navContainer from "./headerButtons";
 import homeTab from "./homeTab";
 import contactTab from "./contactTab";
 import menuTab from "./menuTab";
@@ -16,9 +16,7 @@ headerTitle.classList.add('header-title');
 headerTitle.textContent = "Calabrese";
 header.appendChild(headerTitle);
 // Buttons
-header.appendChild(homeButton);
-header.appendChild(contactButton);
-header.appendChild(menuButton);
+header.appendChild(navContainer);
 
 content.appendChild(header);
 
