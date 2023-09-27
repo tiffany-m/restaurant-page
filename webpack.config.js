@@ -7,20 +7,26 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
     },
+    // module: {
+    //     rules: [
+    //         {
+    //             test: /\.css$/i,
+    //             use: ['style-loader', 'css-loader'],
+    //         },
+    //         {
+    //             test: /\.(png|svg|jpg|jpeg|gif)$/i,
+    //             type: 'asset/resource',
+    //         },
+    //     ],
+    // },
     module: {
         rules: [
             {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
-            },
-            {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                // type: 'asset/resource',
-                use: [
-                    {
-                        loader: 'file-loader',
-                    },
-                ],
+                test: /\.(png|jpe?g|gif)$/i,
+                loader: 'file-loader',
+                options: {
+                    name: '[path][name].[ext]',
+                },
             },
         ],
     },
