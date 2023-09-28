@@ -5,10 +5,11 @@
 
 html {
     min-height: 100%;
-    background-image: url(/src/images/background.jpg);
+    background-image: url(/src/images/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 /* Header ----------------------------------------------------------------- */
