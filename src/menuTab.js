@@ -4,7 +4,7 @@ import CannoliPic from "/src/images/cannoli.jpg";
 
 const menuTab = document.createElement("div");
 menuTab.classList.add("tab");
-menuTab.setHTML(
+menuTab.innerHTML(
   `
   <h2>Discover our Menu</h2>
   <div class="intro">

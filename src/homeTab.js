@@ -1,7 +1,7 @@
 const homeTab = document.createElement("div");
 homeTab.classList.add("tab");
 
-homeTab.setHTML(
+homeTab.innerHTML(
     `
   <h3>Welcome to Calabrese!  Where Every Noodle Tells a Story.</h3>
   <div>
