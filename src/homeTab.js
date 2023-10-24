@@ -1,7 +1,7 @@
 const homeTab = document.createElement("div");
 homeTab.classList.add("tab");
 
-homeTab.innerHTML(
+homeTab.innerHTML =
     `
   <h3>Welcome to Calabrese!  Where Every Noodle Tells a Story.</h3>
   <div>
@@ -34,6 +34,6 @@ homeTab.innerHTML(
       We invite you to experience the rich flavors and warm hospitality that have made Calabrese a beloved
       destination for food lovers. Benvenuto!
   </div>
-  `)
+  `;
 
   export default homeTab;

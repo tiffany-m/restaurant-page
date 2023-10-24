@@ -1,7 +1,7 @@
 const contactTab = document.createElement("div");
 contactTab.classList.add("tab");
 
-contactTab.innerHTML(
+contactTab.innerHTML =
   `
   <h2>Contact</h2>
   <div>Thank you for visiting Calabrese online! We're delighted to know that you're interested in experiencing our culinary 
@@ -18,5 +18,6 @@ contactTab.innerHTML(
       <li><span class="bold-text">Fri & Sat:</span> 11am - 9pm</li>
     </ul>
   </div>
-  `)
+  `;
+  
     export default contactTab;

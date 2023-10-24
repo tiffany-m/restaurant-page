@@ -4,7 +4,7 @@ import CannoliPic from "/src/images/cannoli.jpg";
 
 const menuTab = document.createElement("div");
 menuTab.classList.add("tab");
-menuTab.innerHTML(
+menuTab.innerHTML =
   `
   <h2>Discover our Menu</h2>
   <div class="intro">
@@ -27,6 +27,6 @@ menuTab.innerHTML(
     <div class="menu-description">Indulge in our iconic Cannoli—crisp pastry shells filled to the brim with creamy ricotta cheese. For a twist, opt for chocolate or vanilla cream. Each bite is a heavenly balance of texture and flavor, making it the perfect ending to your meal.</div>
     <img src="${CannoliPic}" alt="Cannoli with Rocotta Cheese">
   </div>
-  `)
+  `;
 
   export default menuTab;
