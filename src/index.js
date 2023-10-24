@@ -1,4 +1,4 @@
-import './style.css';
+import "./style.css";
 import navContainer from "./headerButtons";
 import homeTab from "./homeTab";
 import contactTab from "./contactTab";
@@ -8,11 +8,11 @@ const content = document.getElementById("content");
 let currentTab = homeTab;
 
 // Header
-const header = document.createElement('div');
+const header = document.createElement("div");
 header.setAttribute("id", "header");
 // Header Title
-const headerTitle = document.createElement('div');
-headerTitle.classList.add('header-title');
+const headerTitle = document.createElement("div");
+headerTitle.classList.add("header-title");
 headerTitle.textContent = "Calabrese";
 header.appendChild(headerTitle);
 // Buttons

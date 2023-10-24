@@ -1,6 +1,6 @@
-import PastaPic from '/src/images/pasta.jpg';
-import SaladPic from '/src/images/salad.jpg';
-import CannoliPic from '/src/images/cannoli.jpg';
+import PastaPic from "/src/images/pasta.jpg";
+import SaladPic from "/src/images/salad.jpg";
+import CannoliPic from "/src/images/cannoli.jpg";
 
 const menuTab = document.createElement("div");
 menuTab.classList.add("tab");
